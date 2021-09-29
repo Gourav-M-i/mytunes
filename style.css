@@ -1,0 +1,248 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navi {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+.navi a {
+    text-decoration: none;
+    width: 10vw;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 100%;
+    color: rgb(231, 221, 221);
+    padding: 16px 0px;
+}
+
+.navi a:hover {
+    background-color: rgb(78, 77, 77);
+}
+
+.back {
+    color: white;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 27vh 7vw;
+}
+
+.back h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+.back h3 {
+    text-align: center;
+    font-size: 38px;
+    margin: 30px 0px;
+}
+
+.back p {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+}
+
+.content {
+    padding: 10vh 6vw;
+    background-color: rgb(61, 61, 61);
+}
+
+
+.content .same,
+.firstpara,
+.secondpara {
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content h4 {
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.firstpara {
+    font-size: 23px;
+    padding: 15px 0px;
+    font-family:'Ubuntu', sans-serif ;
+    line-height: 1.5;
+}
+
+.content .same a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(177, 0, 0);
+    color: white;
+    padding: 10px 8px;
+}
+
+.content div.same {
+    padding: 20px 0px;
+}
+
+.content a:hover {
+    background-color: red;
+}
+
+.content .secondpara {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.img1 img {
+    width: 100%;
+
+}
+
+.content2 {
+    padding: 40px 55px;
+}
+
+.content2 a {
+    text-decoration: none;
+    background-color: rgb(13, 13, 153);
+    color: white;
+    padding: 16px 15px;
+}
+
+.content2 div.same2 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.content2 a:hover {
+    background-color: rgb(40, 40, 151);
+    ;
+}
+
+.content2 .same2 {
+    text-align: center;
+}
+
+.content2 p {
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 25px 0px;
+    columns: rgb(22, 22, 22);
+    line-height: 1.5;
+}
+
+.img2 {
+    text-align: center;
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.content3 {
+    background-image: url('section-bg.jpeg');
+    width: auto;
+    padding: 10vh 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content3 h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 30px 0px;
+}
+
+.content3 p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.8;
+}
+.content4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fir{
+    padding-top: 20px;
+}
+.sec{
+    padding: 40px 20px;
+}
+.sec h2{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.fir img{
+    width: 100%;
+}
+.sec .pras{
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(53, 52, 52);
+    font-family: 'Ubuntu', sans-serif;
+}
+.sec .pras .fpara{
+    padding: 13px 0px;
+}
+.redeem{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.content5{
+    display: flex;
+    justify-content: space-around;
+    background-color: #252529;
+    padding: 35px 0px;
+}
+.content5 ul li{
+    list-style: none;
+}
+.content5 ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(180, 174, 174);
+}
+.content5 h3{
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.content5 ul{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+footer{
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding:20px 0px;
+}
+@media  screen and (max-width:800px) {
+    .navi{
+        display: none;
+    }
+    .back p{
+        display: none;
+    }
+    .content4{
+        display: block;
+    }
+    .content5{
+        display: none;
+    }
+}
